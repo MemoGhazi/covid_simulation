@@ -19,7 +19,7 @@ def generate_citizen():
     
 
     citizen: A dictionary which person ID as a key and values as follow:
-        'status'  is health status, initialy all population is healthy(means status= 0),
+        'status'  is health status, initialy all population is healthy(means status= 0), 
         'day_cnt' is used as counter of day for sick citizen, 
         'control' is a list to prevent visiting people two times
     sick_cases: randomly refer 1 (sick status) to part of population base on initial_sick_case_rate
