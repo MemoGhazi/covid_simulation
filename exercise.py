@@ -1,6 +1,6 @@
 import random
 import json
-from math import ceil
+from math import ceil 
 """
 I have tested this program by changing parameters such as infection_rate and mortality_rate
 and I have found that altering mortality_rate is so important rather than infection_rate.
